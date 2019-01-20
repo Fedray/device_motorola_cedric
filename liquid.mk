@@ -19,7 +19,7 @@
 $(call inherit-product, device/motorola/cedric/full_cedric.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -28,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 1920
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
 PRODUCT_MODEL := Moto G5
-PRODUCT_NAME := aosp_cedric
+PRODUCT_NAME := liquid_cedric
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
